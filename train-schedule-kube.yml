@@ -35,7 +35,7 @@ spec:
         ports:
         resources:
          requests:
-            cpu: 200m
+              cpu: 200m
         - containerPort: 8080
         livenessProbe:
           httpGet:
